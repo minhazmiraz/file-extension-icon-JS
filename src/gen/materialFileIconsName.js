@@ -1,5 +1,4 @@
 export const materialFileExtensionsToIcons = {
-  file: "file",
   html: "html",
   htm: "html",
   xhtml: "html",
@@ -637,6 +636,7 @@ export const materialFileExtensionsToIcons = {
 };
 
 export const materialFileNamesToIcons = {
+  file: "file",
   ".pug-lintrc": "pug",
   ".pug-lintrc.js": "pug",
   ".pug-lintrc.json": "pug",

@@ -56,8 +56,6 @@ export const getMaterialFolderIcon = (folderName, open = 0) => {
   if (open) icon = materialFolderIconsOpen[iconName];
   else icon = materialFolderIcons[iconName];
 
-  console.log(icon);
-
   return (
     <img
       src={`data:image/svg+xml;base64,${btoa(icon)}`}

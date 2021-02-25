@@ -1,6 +1,6 @@
 import { materialFolderIcons } from "../static/materialFolderIcons";
 
-const materialFolderIconScript = () => {
+const materialFolderIconsNameScript = () => {
   let nameToIcon = {};
   materialFolderIcons.map((folder) => {
     folder.icons &&
@@ -12,4 +12,4 @@ const materialFolderIconScript = () => {
   console.log(nameToIcon);
 };
 
-export default materialFolderIconScript;
+export default materialFolderIconsNameScript;

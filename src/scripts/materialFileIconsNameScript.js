@@ -1,6 +1,6 @@
 import { materialFileIcons } from "../static/materialFileIcons";
 
-const materialFileIconScript = () => {
+const materialFileIconsNameScript = () => {
   let extToIcon = {};
   let nameToIcon = {};
   materialFileIcons.icons.map((icon) => {
@@ -14,4 +14,4 @@ const materialFileIconScript = () => {
   console.log(nameToIcon);
 };
 
-export default materialFileIconScript;
+export default materialFileIconsNameScript;
