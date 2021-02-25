@@ -4,11 +4,6 @@ Use folder name and file extension specific [Material-icon](https://github.com/P
 
 _Inspired by [vscode-icons-js](https://github.com/dderevjanik/vscode-icons-js) and [file-icons-js](https://github.com/websemantics/file-icons-js)_
 
-## Install
-
-````
-    npm i file-extension-icon-jsp```
-
 ## Usage
 
 ```javascript
@@ -21,4 +16,4 @@ import {
 
 <img src=`${getMaterialFileIcon('index.js')}` alt="" width="24" />
 
-````
+```
