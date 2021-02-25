@@ -24,6 +24,7 @@ export const getVSIFileIcon = (fileName) => {
       iconName = vsiFileExtensionsToIcons[curName];
       break;
     }
+    console.log(curName);
 
     splitName.shift();
   }
@@ -36,16 +37,7 @@ export const getVSIFileIcon = (fileName) => {
   else if (vsiFileIconsThree[iconName]) icon = vsiFileIconsThree[iconName];
   else icon = vsiFileIconsFour[iconName];
 
-  return (
-    <img
-      src={`data:image/svg+xml;base64,${btoa(icon)}`}
-      alt=""
-      width="24"
-      height="24"
-      key={fileName}
-      id={fileName}
-    />
-  );
+  return `data:image/svg+xml;base64,${btoa(icon)}`;
 };
 
 export const getVSIFolderIcon = (folderName, open = 0) => {
@@ -60,14 +52,5 @@ export const getVSIFolderIcon = (folderName, open = 0) => {
   if (open) icon = vsiFolderIconsOpen[iconName];
   else icon = vsiFolderIcons[iconName];
 
-  return (
-    <img
-      src={`data:image/svg+xml;base64,${btoa(icon)}`}
-      alt=""
-      width="24"
-      height="24"
-      key={folderName}
-      id={folderName}
-    />
-  );
+  return `data:image/svg+xml;base64,${btoa(icon)}`;
 };

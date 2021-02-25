@@ -32,16 +32,7 @@ export const getMaterialFileIcon = (fileName) => {
   if (materialFileIconsOne[iconName]) icon = materialFileIconsOne[iconName];
   else icon = materialFileIconsTwo[iconName];
 
-  return (
-    <img
-      src={`data:image/svg+xml;base64,${btoa(icon)}`}
-      alt=""
-      width="24"
-      height="24"
-      key={fileName}
-      id={fileName}
-    />
-  );
+  return `data:image/svg+xml;base64,${btoa(icon)}`;
 };
 
 export const getMaterialFolderIcon = (folderName, open = 0) => {
@@ -56,14 +47,5 @@ export const getMaterialFolderIcon = (folderName, open = 0) => {
   if (open) icon = materialFolderIconsOpen[iconName];
   else icon = materialFolderIcons[iconName];
 
-  return (
-    <img
-      src={`data:image/svg+xml;base64,${btoa(icon)}`}
-      alt=""
-      width="24"
-      height="24"
-      key={folderName}
-      id={folderName}
-    />
-  );
+  return `data:image/svg+xml;base64,${btoa(icon)}`;
 };
