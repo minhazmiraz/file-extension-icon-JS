@@ -1,12 +1,28 @@
-import { getFileIcon, getFolderIcon } from "./api/MaterialIconApi";
-import { materialFileIconsOne } from "./icons/materialFileIconsOne";
+import {
+  getMaterialFileIcon,
+  getMaterialFolderIcon,
+} from "./api/MaterialIconApi";
+import {
+  materialFileExtensionsToIcons,
+  materialFileNamesToIcons,
+} from "./gen/materialFileIconsName";
+import { materialFolderNamesToIcons } from "./gen/materialFolderIconsName";
 
 function App() {
   return (
-    <div className="App">
-      {Object.keys(materialFileIconsOne).map((key) => getFileIcon(key))}
-      {getFileIcon("sublime-project")}
-      {getFolderIcon("folder-dist")}
+    <div className="App" style={{ backgroundColor: "black" }}>
+      {Object.keys(materialFileNamesToIcons).map((key) =>
+        getMaterialFileIcon(key)
+      )}
+      {Object.keys(materialFileExtensionsToIcons).map((key) =>
+        getMaterialFileIcon(key)
+      )}
+      {Object.keys(materialFolderNamesToIcons).map((key) =>
+        getMaterialFolderIcon(key)
+      )}
+      {Object.keys(materialFolderNamesToIcons).map((key) =>
+        getMaterialFolderIcon(key, 1)
+      )}
     </div>
   );
 }

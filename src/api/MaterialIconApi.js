@@ -8,7 +8,7 @@ import { materialFileIconsTwo } from "../icons/materialFileIconsTwo";
 import { materialFolderIcons } from "../icons/materialFolderIcons";
 import { materialFolderIconsOpen } from "../icons/materialFolderIconsOpen";
 
-export const getFileIcon = (fileName) => {
+export const getMaterialFileIcon = (fileName) => {
   let splitName = fileName.split(".");
   let iconName = "";
 
@@ -38,11 +38,13 @@ export const getFileIcon = (fileName) => {
       alt=""
       width="24"
       height="24"
+      key={fileName}
+      id={fileName}
     />
   );
 };
 
-export const getFolderIcon = (folderName, open = 0) => {
+export const getMaterialFolderIcon = (folderName, open = 0) => {
   let iconName = "";
   if (materialFolderNamesToIcons[folderName]) {
     iconName = materialFolderNamesToIcons[folderName];
@@ -62,6 +64,8 @@ export const getFolderIcon = (folderName, open = 0) => {
       alt=""
       width="24"
       height="24"
+      key={folderName}
+      id={folderName}
     />
   );
 };

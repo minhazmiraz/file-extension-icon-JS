@@ -1,4 +1,5 @@
 export const materialFolderNamesToIcons = {
+  folder: "folder",
   src: "folder-src",
   source: "folder-src",
   sources: "folder-src",
