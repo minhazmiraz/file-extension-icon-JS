@@ -1,5 +1,5 @@
-import { getMaterialFileIcon } from "./api/MaterialIconApi";
-import { getVSIFileIcon } from "./api/VSIIconApi";
+import { getMaterialFileIcon } from "./components/api/MaterialIconApi";
+import { getVSIFileIcon } from "./components/api/VSIIconApi";
 
 function App() {
   return (
