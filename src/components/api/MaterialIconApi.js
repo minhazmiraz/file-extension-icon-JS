@@ -31,8 +31,6 @@ export const getMaterialFileIcon = (fileName) => {
     )
     .filter((item) => item);
 
-  console.log(iconName, icon);
-
   return `data:image/svg+xml;base64,${btoa(icon[0])}`;
 };
 
@@ -47,8 +45,6 @@ export const getMaterialFolderIcon = (folderName, open = 0) => {
   let icon = "";
   if (open) icon = Icons.materialFolderIconsOpen[iconName];
   else icon = Icons.materialFolderIcons[iconName];
-
-  console.log(iconName, icon);
 
   return `data:image/svg+xml;base64,${btoa(icon)}`;
 };

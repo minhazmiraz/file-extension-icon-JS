@@ -18,6 +18,10 @@ const vsiFileIconsNameScript = () => {
           );
         !icon.extensionsGlob && (nameToIcon[fname] = icon.icon);
       });
+    icon.languages &&
+      icon.languages.map(
+        (lang) => (extToIcon[lang.defaultExtension] = icon.icon)
+      );
   });
 
   console.log(extToIcon);

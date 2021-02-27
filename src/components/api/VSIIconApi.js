@@ -28,7 +28,6 @@ export const getVSIFileIcon = (fileName) => {
   let icon = Icons.vsiFileIcons
     .map((vsiFileIcon) => (vsiFileIcon[iconName] ? vsiFileIcon[iconName] : ""))
     .filter((item) => item);
-  console.log(iconName, icon);
 
   return `data:image/svg+xml;base64,${btoa(icon[0])}`;
 };
@@ -44,8 +43,6 @@ export const getVSIFolderIcon = (folderName, open = 0) => {
   let icon = "";
   if (open) icon = Icons.vsiFolderIconsOpen[iconName];
   else icon = Icons.vsiFolderIcons[iconName];
-
-  console.log(iconName, icon);
 
   return `data:image/svg+xml;base64,${btoa(icon)}`;
 };

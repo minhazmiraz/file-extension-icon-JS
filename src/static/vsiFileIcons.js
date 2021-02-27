@@ -1,8 +1,8 @@
-import { languages } from "./vsiLanguages";
+import { vsiLanguages as languages } from "./vsiLanguages";
 
 export const vsiFileIcons = {
   default: {
-    file: { icon: "file", format: FileFormat.svg },
+    file: { icon: "file", format: "" },
   },
   supported: [
     {
@@ -73,7 +73,7 @@ export const vsiFileIcons = {
       extensions: [],
       languages: [languages.advpl],
     },
-    { icon: "ai", extensions: ["ai"], format: FileFormat.svg },
+    { icon: "ai", extensions: ["ai"], format: "" },
     { icon: "ai2", extensions: ["ai"], disabled: true },
     {
       icon: "al",
@@ -456,7 +456,7 @@ export const vsiFileIcons = {
       extensions: ["appveyor.yml", ".appveyor.yml"],
       filename: true,
     },
-    { icon: "arduino", extensions: ["ino", "pde"], format: FileFormat.svg },
+    { icon: "arduino", extensions: ["ino", "pde"], format: "" },
     {
       icon: "asciidoc",
       extensions: [],
@@ -467,7 +467,7 @@ export const vsiFileIcons = {
       extensions: [],
       languages: [languages.asp],
     },
-    { icon: "aspx", extensions: ["aspx", "ascx"], format: FileFormat.svg },
+    { icon: "aspx", extensions: ["aspx", "ascx"], format: "" },
     {
       icon: "assembly",
       extensions: [],
@@ -542,7 +542,7 @@ export const vsiFileIcons = {
       icon: "awk",
       extensions: ["awk"],
     },
-    { icon: "aws", extensions: [], format: FileFormat.svg },
+    { icon: "aws", extensions: [], format: "" },
     {
       icon: "azure",
       extensions: [],
@@ -726,8 +726,8 @@ export const vsiFileIcons = {
       extensions: [],
       languages: [languages.caddyfile],
     },
-    { icon: "cake", extensions: ["cake"], format: FileFormat.svg },
-    { icon: "cakephp", extensions: [], format: FileFormat.svg },
+    { icon: "cake", extensions: ["cake"], format: "" },
+    { icon: "cakephp", extensions: [], format: "" },
     {
       icon: "capacitor",
       extensions: [],
@@ -812,7 +812,7 @@ export const vsiFileIcons = {
       extensions: ["chefignore", "berksfile", "berksfile.lock", "policyfile"],
       filename: true,
     },
-    { icon: "class", extensions: ["class"], format: FileFormat.svg },
+    { icon: "class", extensions: ["class"], format: "" },
     {
       icon: "circleci",
       extensions: ["circle.yml"],
@@ -863,7 +863,7 @@ export const vsiFileIcons = {
       extensions: ["codecov.yml", ".codecov.yml"],
       filename: true,
     },
-    { icon: "codekit", extensions: ["kit"], format: FileFormat.svg },
+    { icon: "codekit", extensions: ["kit"], format: "" },
     {
       icon: "codekit",
       extensions: [
@@ -907,7 +907,7 @@ export const vsiFileIcons = {
       extensions: ["commitlint.config.js"],
       filename: true,
     },
-    { icon: "compass", extensions: [], format: FileFormat.svg },
+    { icon: "compass", extensions: [], format: "" },
     {
       icon: "composer",
       extensions: ["composer.json", "composer.lock"],
@@ -974,7 +974,7 @@ export const vsiFileIcons = {
 
       disabled: true,
     },
-    { icon: "csproj", extensions: ["csproj"], format: FileFormat.svg },
+    { icon: "csproj", extensions: ["csproj"], format: "" },
     {
       icon: "css",
       extensions: [],
@@ -990,7 +990,7 @@ export const vsiFileIcons = {
       extensions: [".csslintrc"],
       filename: true,
     },
-    { icon: "cssmap", extensions: ["css.map"], format: FileFormat.svg },
+    { icon: "cssmap", extensions: ["css.map"], format: "" },
     {
       icon: "cucumber",
       extensions: [],
@@ -1031,7 +1031,7 @@ export const vsiFileIcons = {
       extensions: [],
       languages: [languages.dart],
     },
-    { icon: "db", extensions: ["db"], light: true, format: FileFormat.svg },
+    { icon: "db", extensions: ["db"], light: true, format: "" },
     {
       icon: "dependabot",
       extensions: ["dependabot.yml"],
@@ -1193,13 +1193,13 @@ export const vsiFileIcons = {
       extensions: [],
       languages: [languages.eex],
     },
-    { icon: "ejs", extensions: ["ejs"], format: FileFormat.svg },
+    { icon: "ejs", extensions: ["ejs"], format: "" },
     {
       icon: "elastic",
       extensions: [],
       languages: [languages.elastic],
     },
-    { icon: "elasticbeanstalk", extensions: [], format: FileFormat.svg },
+    { icon: "elasticbeanstalk", extensions: [], format: "" },
     {
       icon: "elixir",
       extensions: [],
@@ -1219,14 +1219,14 @@ export const vsiFileIcons = {
 
       disabled: true,
     },
-    { icon: "emacs", extensions: ["el", "elc"], format: FileFormat.svg },
+    { icon: "emacs", extensions: ["el", "elc"], format: "" },
     {
       icon: "ember",
       extensions: [".ember-cli"],
       filename: true,
     },
-    { icon: "ensime", extensions: ["ensime"], format: FileFormat.svg },
-    { icon: "eps", extensions: ["eps"], format: FileFormat.svg },
+    { icon: "ensime", extensions: ["ensime"], format: "" },
+    { icon: "eps", extensions: ["eps"], format: "" },
     {
       icon: "erb",
       extensions: [],
@@ -1299,7 +1299,7 @@ export const vsiFileIcons = {
       extensions: ["favicon.ico"],
       filename: true,
     },
-    { icon: "fbx", extensions: ["fbx"], format: FileFormat.svg },
+    { icon: "fbx", extensions: ["fbx"], format: "" },
     {
       icon: "firebase",
       extensions: [".firebaserc"],
@@ -1316,7 +1316,7 @@ export const vsiFileIcons = {
       extensions: ["firestore.rules", "firestore.indexes.json"],
       filename: true,
     },
-    { icon: "flash", extensions: ["swf", "swc"], format: FileFormat.svg },
+    { icon: "flash", extensions: ["swf", "swc"], format: "" },
     {
       icon: "fla",
       extensions: ["fla"],
@@ -1327,7 +1327,7 @@ export const vsiFileIcons = {
       extensions: [".flooignore"],
       filename: true,
     },
-    { icon: "flow", extensions: ["js.flow"], format: FileFormat.svg },
+    { icon: "flow", extensions: ["js.flow"], format: "" },
     {
       icon: "flow",
       extensions: [".flowconfig"],
@@ -1368,7 +1368,7 @@ export const vsiFileIcons = {
       extensions: [],
       languages: [languages.fsharp],
     },
-    { icon: "fsproj", extensions: ["fsproj"], format: FileFormat.svg },
+    { icon: "fsproj", extensions: ["fsproj"], format: "" },
     {
       icon: "freemarker",
       extensions: [],
@@ -1600,7 +1600,7 @@ export const vsiFileIcons = {
       extensions: ["checkstyle.json"],
       filename: true,
     },
-    { icon: "haxedevelop", extensions: ["hxproj"], format: FileFormat.svg },
+    { icon: "haxedevelop", extensions: ["hxproj"], format: "" },
     {
       icon: "helix",
       extensions: [".p4ignore"],
@@ -1679,9 +1679,9 @@ export const vsiFileIcons = {
       extensions: [],
       languages: [languages.icl],
     },
-    { icon: "idris", extensions: ["idr", "lidr"], format: FileFormat.svg },
-    { icon: "idrisbin", extensions: ["ibc"], format: FileFormat.svg },
-    { icon: "idrispkg", extensions: ["ipkg"], format: FileFormat.svg },
+    { icon: "idris", extensions: ["idr", "lidr"], format: "" },
+    { icon: "idrisbin", extensions: ["ibc"], format: "" },
+    { icon: "idrispkg", extensions: ["ipkg"], format: "" },
     {
       icon: "image",
       extensions: ["jpeg", "jpg", "gif", "png", "bmp", "tiff", "ico"],
@@ -1735,7 +1735,7 @@ export const vsiFileIcons = {
       extensions: [],
       languages: [languages.janet],
     },
-    { icon: "jar", extensions: ["jar"], format: FileFormat.svg },
+    { icon: "jar", extensions: ["jar"], format: "" },
     {
       icon: "jasmine",
       extensions: ["jasmine.json"],
@@ -1746,7 +1746,7 @@ export const vsiFileIcons = {
       extensions: [],
       languages: [languages.java],
     },
-    { icon: "jbuilder", extensions: ["jbuilder"], format: FileFormat.svg },
+    { icon: "jbuilder", extensions: ["jbuilder"], format: "" },
     {
       icon: "jest",
       extensions: [
@@ -1867,8 +1867,8 @@ export const vsiFileIcons = {
       extensions: ["jsonld", "json-ld"],
       light: true,
     },
-    { icon: "jsp", extensions: ["jsp"], format: FileFormat.svg },
-    { icon: "jss", extensions: ["jss"], format: FileFormat.svg },
+    { icon: "jsp", extensions: ["jsp"], format: "" },
+    { icon: "jss", extensions: ["jss"], format: "" },
     {
       icon: "julia",
       extensions: [],
@@ -1881,7 +1881,7 @@ export const vsiFileIcons = {
 
       disabled: true,
     },
-    { icon: "jupyter", extensions: ["ipynb"], format: FileFormat.svg },
+    { icon: "jupyter", extensions: ["ipynb"], format: "" },
     {
       icon: "io",
       extensions: [],
@@ -1900,7 +1900,7 @@ export const vsiFileIcons = {
       extensionsGlob: ["js", "coffee", "ts"],
       filename: true,
     },
-    { icon: "key", extensions: ["key", "pem"], format: FileFormat.svg },
+    { icon: "key", extensions: ["key", "pem"], format: "" },
     {
       icon: "kite",
       extensions: [".kiteignore"],
@@ -1962,7 +1962,7 @@ export const vsiFileIcons = {
       extensions: [],
       languages: [languages.lex],
     },
-    { icon: "license", extensions: ["enc"], format: FileFormat.svg },
+    { icon: "license", extensions: ["enc"], format: "" },
     {
       icon: "license",
       extensions: ["license", "licence", "copying", "copying.lesser"],
@@ -1982,7 +1982,7 @@ export const vsiFileIcons = {
       extensions: [],
       languages: [languages.lisp],
     },
-    { icon: "lime", extensions: ["hxp"], format: FileFormat.svg },
+    { icon: "lime", extensions: ["hxp"], format: "" },
     {
       icon: "lime",
       extensions: ["include.xml"],
@@ -1995,11 +1995,11 @@ export const vsiFileIcons = {
       extensionsGlob: ["js", "json", "yaml", "yml"],
       filename: true,
     },
-    { icon: "liquid", extensions: ["liquid"], format: FileFormat.svg },
-    { icon: "livescript", extensions: ["ls"], format: FileFormat.svg },
-    { icon: "lnk", extensions: ["lnk"], format: FileFormat.svg },
-    { icon: "locale", extensions: [], format: FileFormat.svg },
-    { icon: "log", extensions: ["log", "tlg"], format: FileFormat.svg },
+    { icon: "liquid", extensions: ["liquid"], format: "" },
+    { icon: "livescript", extensions: ["ls"], format: "" },
+    { icon: "lnk", extensions: ["lnk"], format: "" },
+    { icon: "locale", extensions: [], format: "" },
+    { icon: "log", extensions: ["log", "tlg"], format: "" },
     {
       icon: "lolcode",
       extensions: [],
@@ -2015,7 +2015,7 @@ export const vsiFileIcons = {
       extensions: [],
       languages: [languages.lua],
     },
-    { icon: "lync", extensions: ["crec", "ocrec"], format: FileFormat.svg },
+    { icon: "lync", extensions: ["crec", "ocrec"], format: "" },
     {
       icon: "makefile",
       extensions: ["makefile"],
@@ -2036,7 +2036,7 @@ export const vsiFileIcons = {
       extensions: ["manifest.bak"],
       filename: true,
     },
-    { icon: "map", extensions: ["map"], format: FileFormat.svg },
+    { icon: "map", extensions: ["map"], format: "" },
     {
       icon: "markdown",
       extensions: ["mdown", "markdown"],
@@ -2052,7 +2052,7 @@ export const vsiFileIcons = {
       extensions: [],
       languages: [languages.marko],
     },
-    { icon: "markojs", extensions: ["marko.js"], format: FileFormat.svg },
+    { icon: "markojs", extensions: ["marko.js"], format: "" },
     {
       icon: "matlab",
       extensions: [
@@ -2110,7 +2110,7 @@ export const vsiFileIcons = {
       extensions: [],
       languages: [languages.meson],
     },
-    { icon: "meteor", extensions: [], format: FileFormat.svg },
+    { icon: "meteor", extensions: [], format: "" },
     {
       icon: "mjml",
       extensions: [],
@@ -2351,7 +2351,7 @@ export const vsiFileIcons = {
       extensions: [],
       languages: [languages.nix],
     },
-    { icon: "njsproj", extensions: ["njsproj"], format: FileFormat.svg },
+    { icon: "njsproj", extensions: ["njsproj"], format: "" },
     {
       icon: "node",
       extensions: [".node-version", ".nvmrc"],
@@ -2447,20 +2447,20 @@ export const vsiFileIcons = {
       icon: "onenote",
       extensions: ["one", "onepkg", "onetoc", "onetoc2", "sig"],
     },
-    { icon: "opencl", extensions: ["cl", "opencl"], format: FileFormat.svg },
+    { icon: "opencl", extensions: ["cl", "opencl"], format: "" },
     {
       icon: "openHAB",
       extensions: [],
       languages: [languages.openHAB],
       light: true,
     },
-    { icon: "org", extensions: ["org"], format: FileFormat.svg },
+    { icon: "org", extensions: ["org"], format: "" },
     {
       icon: "outlook",
       extensions: ["pst", "bcmx", "otm", "msg", "oft"],
     },
-    { icon: "ovpn", extensions: ["ovpn"], format: FileFormat.svg },
-    { icon: "package", extensions: ["pkg"], format: FileFormat.svg },
+    { icon: "ovpn", extensions: ["ovpn"], format: "" },
+    { icon: "package", extensions: ["pkg"], format: "" },
     {
       icon: "paket",
       extensions: [],
@@ -2474,8 +2474,8 @@ export const vsiFileIcons = {
       ],
       filename: true,
     },
-    { icon: "patch", extensions: ["patch"], format: FileFormat.svg },
-    { icon: "pcl", extensions: ["pcd"], light: true, format: FileFormat.svg },
+    { icon: "patch", extensions: ["patch"], format: "" },
+    { icon: "pcl", extensions: ["pcd"], light: true, format: "" },
     {
       icon: "pddl",
       extensions: [],
@@ -2491,7 +2491,7 @@ export const vsiFileIcons = {
       extensions: [],
       languages: [languages.pddlhappenings],
     },
-    { icon: "pdf", extensions: ["pdf"], format: FileFormat.svg },
+    { icon: "pdf", extensions: ["pdf"], format: "" },
     {
       icon: "pdf2",
       extensions: ["pdf"],
@@ -2520,7 +2520,7 @@ export const vsiFileIcons = {
       extensions: [],
       languages: [languages.pgsql],
     },
-    { icon: "photoshop", extensions: ["psd"], format: FileFormat.svg },
+    { icon: "photoshop", extensions: ["psd"], format: "" },
     {
       icon: "photoshop2",
       extensions: ["psd"],
@@ -2623,20 +2623,20 @@ export const vsiFileIcons = {
       extensions: [],
       languages: [languages.plsql],
     },
-    { icon: "plsql_package", extensions: ["pck"], format: FileFormat.svg },
-    { icon: "plsql_package_body", extensions: ["pkb"], format: FileFormat.svg },
+    { icon: "plsql_package", extensions: ["pck"], format: "" },
+    { icon: "plsql_package_body", extensions: ["pkb"], format: "" },
     {
       icon: "plsql_package_header",
       extensions: ["pkh"],
     },
-    { icon: "plsql_package_spec", extensions: ["pks"], format: FileFormat.svg },
+    { icon: "plsql_package_spec", extensions: ["pks"], format: "" },
     {
       icon: "pnpm",
       extensions: ["pnpmfile.js", "pnpm-lock.yaml", "pnpm-workspace.yaml"],
       light: true,
       filename: true,
     },
-    { icon: "poedit", extensions: ["po", "mo"], format: FileFormat.svg },
+    { icon: "poedit", extensions: ["po", "mo"], format: "" },
     {
       icon: "polymer",
       extensions: [],
@@ -2813,7 +2813,7 @@ export const vsiFileIcons = {
       extensionsGlob: ["js", "coffee", "ts"],
       filename: true,
     },
-    { icon: "publisher", extensions: ["pub", "puz"], format: FileFormat.svg },
+    { icon: "publisher", extensions: ["pub", "puz"], format: "" },
     {
       icon: "puppet",
       extensions: [],
@@ -2857,8 +2857,8 @@ export const vsiFileIcons = {
       extensions: [".pyup", ".pyup.yml"],
       filename: true,
     },
-    { icon: "q", extensions: ["q"], format: FileFormat.svg },
-    { icon: "qbs", extensions: ["qbs"], format: FileFormat.svg },
+    { icon: "q", extensions: ["q"], format: "" },
+    { icon: "qbs", extensions: ["qbs"], format: "" },
     {
       icon: "qlikview",
       extensions: ["qvd", "qvw"],
@@ -2894,8 +2894,8 @@ export const vsiFileIcons = {
       extensions: [],
       languages: [languages.racket],
     },
-    { icon: "rails", extensions: [], format: FileFormat.svg },
-    { icon: "rake", extensions: ["rake"], format: FileFormat.svg },
+    { icon: "rails", extensions: [], format: "" },
+    { icon: "rake", extensions: ["rake"], format: "" },
     {
       icon: "rake",
       extensions: ["rakefile"],
@@ -2924,7 +2924,7 @@ export const vsiFileIcons = {
       extensions: [],
       languages: [languages.javascriptreact],
     },
-    { icon: "reacttemplate", extensions: ["rt"], format: FileFormat.svg },
+    { icon: "reacttemplate", extensions: ["rt"], format: "" },
     {
       icon: "reactts",
       extensions: [],
@@ -2940,7 +2940,7 @@ export const vsiFileIcons = {
       extensions: [],
       languages: [languages.red],
     },
-    { icon: "registry", extensions: ["reg"], format: FileFormat.svg },
+    { icon: "registry", extensions: ["reg"], format: "" },
     {
       icon: "rego",
       extensions: ["rego"],
@@ -3023,7 +3023,7 @@ export const vsiFileIcons = {
       extensions: [],
       languages: [languages.rmd],
     },
-    { icon: "rproj", extensions: ["rproj"], format: FileFormat.svg },
+    { icon: "rproj", extensions: ["rproj"], format: "" },
     {
       icon: "rspec",
       extensions: [".rspec"],
@@ -3055,7 +3055,7 @@ export const vsiFileIcons = {
       extensions: [".sailsrc"],
       filename: true,
     },
-    { icon: "saltstack", extensions: ["sls"], format: FileFormat.svg },
+    { icon: "saltstack", extensions: ["sls"], format: "" },
     {
       icon: "san",
       extensions: [],
@@ -3066,7 +3066,7 @@ export const vsiFileIcons = {
       extensions: [],
       languages: [languages.sas],
     },
-    { icon: "sass", extensions: ["sass"], format: FileFormat.svg },
+    { icon: "sass", extensions: ["sass"], format: "" },
     {
       icon: "sbt",
       extensions: [],
@@ -3125,7 +3125,7 @@ export const vsiFileIcons = {
       extensions: ["fish"],
       languages: [languages.shellscript],
     },
-    { icon: "sketch", extensions: ["sketch"], format: FileFormat.svg },
+    { icon: "sketch", extensions: ["sketch"], format: "" },
     {
       icon: "slang",
       extensions: [],
@@ -3141,7 +3141,7 @@ export const vsiFileIcons = {
       extensions: [],
       languages: [languages.slim],
     },
-    { icon: "sln", extensions: ["sln"], format: FileFormat.svg },
+    { icon: "sln", extensions: ["sln"], format: "" },
     {
       icon: "sln2",
       extensions: ["sln"],
@@ -3189,7 +3189,7 @@ export const vsiFileIcons = {
       languages: [languages.solidity],
       light: true,
     },
-    { icon: "source", extensions: [], format: FileFormat.svg },
+    { icon: "source", extensions: [], format: "" },
     {
       icon: "spacengine",
       extensions: ["spe"],
@@ -3213,7 +3213,7 @@ export const vsiFileIcons = {
       extensions: [],
       languages: [languages.squirrel],
     },
-    { icon: "sss", extensions: ["sss"], format: FileFormat.svg },
+    { icon: "sss", extensions: ["sss"], format: "" },
     {
       icon: "stan",
       extensions: [],
@@ -3229,7 +3229,7 @@ export const vsiFileIcons = {
       extensions: [],
       languages: [languages.stencil, languages.stencilhtml],
     },
-    { icon: "style", extensions: [], format: FileFormat.svg },
+    { icon: "style", extensions: [], format: "" },
     {
       icon: "stylelint",
       extensions: [".stylelintrc", ".stylelintignore", ".stylelintcache"],
@@ -3259,7 +3259,7 @@ export const vsiFileIcons = {
       languages: [languages.stylus],
       light: true,
     },
-    { icon: "storyboard", extensions: ["storyboard"], format: FileFormat.svg },
+    { icon: "storyboard", extensions: ["storyboard"], format: "" },
     {
       icon: "storybook",
       extensions: [],
@@ -3276,7 +3276,7 @@ export const vsiFileIcons = {
       extensions: [],
       languages: [languages.svelte],
     },
-    { icon: "svg", extensions: ["svg"], format: FileFormat.svg },
+    { icon: "svg", extensions: ["svg"], format: "" },
     {
       icon: "swagger",
       extensions: [],
@@ -3328,7 +3328,7 @@ export const vsiFileIcons = {
       extensions: ["tt2"],
       languages: [languages.templatetoolkit],
     },
-    { icon: "tcl", extensions: ["tcl", "exp"], format: FileFormat.svg },
+    { icon: "tcl", extensions: ["tcl", "exp"], format: "" },
     {
       icon: "tera",
       extensions: [],
@@ -3339,7 +3339,7 @@ export const vsiFileIcons = {
       extensions: ["tfstate"],
       languages: [languages.terraform],
     },
-    { icon: "test", extensions: ["tst"], format: FileFormat.svg },
+    { icon: "test", extensions: ["tst"], format: "" },
     {
       icon: "testcafe",
       extensions: [".testcaferc.json"],
@@ -3390,7 +3390,7 @@ export const vsiFileIcons = {
       extensions: [".tfignore"],
       filename: true,
     },
-    { icon: "todo", extensions: ["todo"], light: true, format: FileFormat.svg },
+    { icon: "todo", extensions: ["todo"], light: true, format: "" },
     {
       icon: "toml",
       extensions: [],
@@ -3467,7 +3467,7 @@ export const vsiFileIcons = {
 
       disabled: true,
     },
-    { icon: "typescriptdef", extensions: ["d.ts"], format: FileFormat.svg },
+    { icon: "typescriptdef", extensions: ["d.ts"], format: "" },
     {
       icon: "typescriptdef_official",
       extensions: ["d.ts"],
@@ -3499,9 +3499,9 @@ export const vsiFileIcons = {
       extensions: ["vagrantfile"],
       filename: true,
     },
-    { icon: "vala", extensions: ["vala"], format: FileFormat.svg },
-    { icon: "vapi", extensions: ["vapi"], format: FileFormat.svg },
-    { icon: "vash", extensions: ["vash"], light: true, format: FileFormat.svg },
+    { icon: "vala", extensions: ["vala"], format: "" },
+    { icon: "vapi", extensions: ["vapi"], format: "" },
+    { icon: "vash", extensions: ["vash"], light: true, format: "" },
     {
       icon: "vb",
       extensions: [],
@@ -3512,9 +3512,9 @@ export const vsiFileIcons = {
       extensions: [],
       languages: [languages.vba],
     },
-    { icon: "vbhtml", extensions: ["vbhtml"], format: FileFormat.svg },
-    { icon: "vbproj", extensions: ["vbproj"], format: FileFormat.svg },
-    { icon: "vcxproj", extensions: ["vcxproj"], format: FileFormat.svg },
+    { icon: "vbhtml", extensions: ["vbhtml"], format: "" },
+    { icon: "vbproj", extensions: ["vbproj"], format: "" },
+    { icon: "vcxproj", extensions: ["vcxproj"], format: "" },
     {
       icon: "velocity",
       extensions: [],
@@ -3568,7 +3568,7 @@ export const vsiFileIcons = {
         "wmv",
       ],
     },
-    { icon: "view", extensions: [], format: FileFormat.svg },
+    { icon: "view", extensions: [], format: "" },
     {
       icon: "vim",
       extensions: [".vimrc", ".gvimrc"],
@@ -3619,7 +3619,7 @@ export const vsiFileIcons = {
 
       disabled: true,
     },
-    { icon: "vsix", extensions: ["vsix"], light: true, format: FileFormat.svg },
+    { icon: "vsix", extensions: ["vsix"], light: true, format: "" },
     {
       icon: "vsixmanifest",
       extensions: ["vsixmanifest"],
@@ -3729,16 +3729,16 @@ export const vsiFileIcons = {
       extensions: [],
       languages: [languages.wurst],
     },
-    { icon: "wxml", extensions: ["wxml"], format: FileFormat.svg },
-    { icon: "wxss", extensions: ["wxss"], format: FileFormat.svg },
-    { icon: "xcode", extensions: ["xcodeproj"], format: FileFormat.svg },
+    { icon: "wxml", extensions: ["wxml"], format: "" },
+    { icon: "wxss", extensions: ["wxss"], format: "" },
+    { icon: "xcode", extensions: ["xcodeproj"], format: "" },
     {
       icon: "xfl",
       extensions: ["xfl"],
       light: true,
     },
-    { icon: "xib", extensions: ["xib"], format: FileFormat.svg },
-    { icon: "xliff", extensions: ["xliff", "xlf"], format: FileFormat.svg },
+    { icon: "xib", extensions: ["xib"], format: "" },
+    { icon: "xliff", extensions: ["xliff", "xlf"], format: "" },
     {
       icon: "xmake",
       extensions: [],

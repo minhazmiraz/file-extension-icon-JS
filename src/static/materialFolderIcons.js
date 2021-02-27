@@ -187,46 +187,57 @@ export const materialFolderIcons = [
       {
         name: "folder-ngrx-effects",
         folderNames: ["effects"],
+        enabledFor: [],
       },
       {
         name: "folder-ngrx-store",
         folderNames: ["store"],
+        enabledFor: [],
       },
       {
         name: "folder-ngrx-state",
         folderNames: ["states", "state"],
+        enabledFor: [],
       },
       {
         name: "folder-ngrx-reducer",
         folderNames: ["reducers", "reducer"],
+        enabledFor: [],
       },
       {
         name: "folder-ngrx-actions",
         folderNames: ["actions"],
+        enabledFor: [],
       },
       {
         name: "folder-ngrx-entities",
         folderNames: ["entities"],
+        enabledFor: [],
       },
       {
         name: "folder-ngrx-selectors",
         folderNames: ["selectors"],
+        enabledFor: [],
       },
       {
         name: "folder-redux-reducer",
         folderNames: ["reducers", "reducer"],
+        enabledFor: [],
       },
       {
         name: "folder-redux-actions",
         folderNames: ["actions"],
+        enabledFor: [],
       },
       {
         name: "folder-redux-store",
         folderNames: ["store"],
+        enabledFor: [],
       },
       {
         name: "folder-react-components",
         folderNames: ["components"],
+        enabledFor: [],
       },
       {
         name: "folder-database",
@@ -362,10 +373,7 @@ export const materialFolderIcons = [
       },
       { name: "folder-ansible", folderNames: ["ansible"] },
       { name: "folder-server", folderNames: ["server", "servers", "backend"] },
-      {
-        name: "folder-client",
-        folderNames: ["client", "clients", "frontend", "pwa"],
-      },
+      { name: "folder-client", folderNames: ["client", "clients", "frontend"] },
       { name: "folder-tasks", folderNames: ["tasks", "tickets"] },
       { name: "folder-android", folderNames: ["android"] },
       { name: "folder-ios", folderNames: ["ios"] },
@@ -544,20 +552,24 @@ export const materialFolderIcons = [
       {
         name: "folder-vuex-store",
         folderNames: ["store"],
+        enabledFor: [],
       },
       {
         name: "folder-nuxt",
         folderNames: ["nuxt", ".nuxt"],
+        enabledFor: [],
       },
       {
         name: "folder-vue-directives",
         folderNames: ["directives"],
+        enabledFor: [],
       },
       {
         name: "folder-vue",
         folderNames: ["components"],
+        enabledFor: [],
       },
-      { name: "folder-terraform", folderNames: ["terraform", ".terraform"] },
+      { name: "folder-terraform", folderNames: ["terraform"] },
       {
         name: "folder-mobile",
         folderNames: ["mobile", "mobiles", "portable", "portability"],
@@ -575,11 +587,8 @@ export const materialFolderIcons = [
         folderNames: [".azure-pipelines", ".azure-pipelines-ci"],
       },
       { name: "folder-mjml", folderNames: ["mjml"] },
-      { name: "folder-admin", folderNames: ["admin"] },
       { name: "folder-scala", folderNames: ["scala"] },
       { name: "folder-connection", folderNames: ["connection", "connections"] },
-      { name: "folder-quasar", folderNames: [".quasar"] },
-      { name: "folder-cobol", folderNames: ["cobol"] },
     ],
   },
   {
