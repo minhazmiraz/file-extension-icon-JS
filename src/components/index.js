@@ -4,9 +4,9 @@ import {
 } from "./api/MaterialIconApi";
 import { getVSIFileIcon, getVSIFolderIcon } from "./api/VSIIconApi";
 
-module.exports({
+export {
   getMaterialFileIcon,
   getMaterialFolderIcon,
   getVSIFileIcon,
   getVSIFolderIcon,
-});
+};

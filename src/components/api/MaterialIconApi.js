@@ -3,10 +3,7 @@ import {
   materialFileNamesToIcons,
 } from "../gen/materialFileIconsName";
 import { materialFolderNamesToIcons } from "../gen/materialFolderIconsName";
-import { materialFileIconsOne } from "../icons/materialFileIconsOne";
-import { materialFileIconsTwo } from "../icons/materialFileIconsTwo";
-import { materialFolderIcons } from "../icons/materialFolderIcons";
-import { materialFolderIconsOpen } from "../icons/materialFolderIconsOpen";
+import Icons from "../icons/index";
 
 export const getMaterialFileIcon = (fileName) => {
   let splitName = fileName.split(".");
@@ -28,11 +25,15 @@ export const getMaterialFileIcon = (fileName) => {
 
   if (iconName === "") iconName = "file";
 
-  let icon = "";
-  if (materialFileIconsOne[iconName]) icon = materialFileIconsOne[iconName];
-  else icon = materialFileIconsTwo[iconName];
+  let icon = Icons.materialFileIcons
+    .map((materialFileIcon) =>
+      materialFileIcon[iconName] ? materialFileIcon[iconName] : ""
+    )
+    .filter((item) => item);
 
-  return `data:image/svg+xml;base64,${btoa(icon)}`;
+  console.log(iconName, icon);
+
+  return `data:image/svg+xml;base64,${btoa(icon[0])}`;
 };
 
 export const getMaterialFolderIcon = (folderName, open = 0) => {
@@ -44,8 +45,10 @@ export const getMaterialFolderIcon = (folderName, open = 0) => {
   if (iconName === "") iconName = "folder";
 
   let icon = "";
-  if (open) icon = materialFolderIconsOpen[iconName];
-  else icon = materialFolderIcons[iconName];
+  if (open) icon = Icons.materialFolderIconsOpen[iconName];
+  else icon = Icons.materialFolderIcons[iconName];
+
+  console.log(iconName, icon);
 
   return `data:image/svg+xml;base64,${btoa(icon)}`;
 };

@@ -3,12 +3,7 @@ import {
   vsiFileNamesToIcons,
 } from "../gen/vsiFileIconsName";
 import { vsiFolderNamesToIcons } from "../gen/vsiFolderIconsName";
-import { vsiFileIconsOne } from "../icons/vsiFileIconsOne";
-import { vsiFileIconsTwo } from "../icons/vsiFileIconsTwo";
-import { vsiFileIconsThree } from "../icons/vsiFileIconsThree";
-import { vsiFileIconsFour } from "../icons/vsiFileIconsFour";
-import { vsiFolderIcons } from "../icons/vsiFolderIcons";
-import { vsiFolderIconsOpen } from "../icons/vsiFolderIconsOpen";
+import Icons from "../icons/index";
 
 export const getVSIFileIcon = (fileName) => {
   let splitName = fileName.split(".");
@@ -24,20 +19,18 @@ export const getVSIFileIcon = (fileName) => {
       iconName = vsiFileExtensionsToIcons[curName];
       break;
     }
-    console.log(curName);
 
     splitName.shift();
   }
 
   if (iconName === "") iconName = "file";
 
-  let icon = "";
-  if (vsiFileIconsOne[iconName]) icon = vsiFileIconsOne[iconName];
-  else if (vsiFileIconsTwo[iconName]) icon = vsiFileIconsTwo[iconName];
-  else if (vsiFileIconsThree[iconName]) icon = vsiFileIconsThree[iconName];
-  else icon = vsiFileIconsFour[iconName];
+  let icon = Icons.vsiFileIcons
+    .map((vsiFileIcon) => (vsiFileIcon[iconName] ? vsiFileIcon[iconName] : ""))
+    .filter((item) => item);
+  console.log(iconName, icon);
 
-  return `data:image/svg+xml;base64,${btoa(icon)}`;
+  return `data:image/svg+xml;base64,${btoa(icon[0])}`;
 };
 
 export const getVSIFolderIcon = (folderName, open = 0) => {
@@ -49,8 +42,10 @@ export const getVSIFolderIcon = (folderName, open = 0) => {
   if (iconName === "") iconName = "folder";
 
   let icon = "";
-  if (open) icon = vsiFolderIconsOpen[iconName];
-  else icon = vsiFolderIcons[iconName];
+  if (open) icon = Icons.vsiFolderIconsOpen[iconName];
+  else icon = Icons.vsiFolderIcons[iconName];
+
+  console.log(iconName, icon);
 
   return `data:image/svg+xml;base64,${btoa(icon)}`;
 };
