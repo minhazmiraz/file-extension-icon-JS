@@ -14,6 +14,22 @@ import {
   getVSIFolderIcon,
 } from "file-extension-icon-js";
 
-<img src=`${getMaterialFileIcon('index.js')}` alt="" width="24" />
+//File Icon
+<img src=`${getMaterialFileIcon('index.js')}` alt="js" width="24" />
+
+//Folder Icon
+<img src=`${getMaterialFolderIcon('android')}` alt="android" width="24" />
+
+//Open Folder Icon
+<img src=`${getMaterialFolderIcon('android', 1)}` alt="android" width="24" />
+
+//File Icon
+<img src=`${getVSIFileIcon('index.js')}` alt="js" width="24" />
+
+//Folder Icon
+<img src=`${getVSIFolderIcon('android')}` alt="android" width="24" />
+
+//Open Folder Icon
+<img src=`${getVSIFolderIcon('android', 1)}` alt="android" width="24" />
 
 ```
