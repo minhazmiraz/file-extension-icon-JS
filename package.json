@@ -1,76 +1,76 @@
 {
-  "name": "file-extension-icon-js",
-  "version": "1.1.3",
-  "description": "Use folder name and file extension specific Material-icon and vscode-icon.",
-  "keywords": [
-    "icon",
-    "material",
-    "vscode",
-    "file-extension",
-    "folder",
-    "javascript"
-  ],
-  "homepage": "https://github.com/minhazmiraz/file-extension-icon-JS",
-  "bugs": {
-    "url": "https://github.com/minhazmiraz/file-extension-icon-JS/issues"
-  },
-  "author": {
-    "name": "minhazmiraz"
-  },
-  "main": "./dist/index.js",
-  "module": "./dist/index.js",
-  "typings": "./dist/index.d.ts",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/minhazmiraz/file-extension-icon-JS"
-  },
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.11.9",
-    "@testing-library/react": "^11.2.5",
-    "@testing-library/user-event": "^12.7.2",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.0"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "publish:npm": "rm -rf dist && mkdir dist &&  babel ./src/components -d dist --copy-files"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "node-fetch": "^2.6.1"
-  },
-  "babel": {
-    "presets": [
-      "react",
-      "env"
-    ]
-  }
+	"name": "file-extension-icon-js",
+	"version": "1.1.4",
+	"description": "Use folder name and file extension specific Material-icon and vscode-icon.",
+	"keywords": [
+		"icon",
+		"material",
+		"vscode",
+		"file-extension",
+		"folder",
+		"javascript"
+	],
+	"homepage": "https://github.com/minhazmiraz/file-extension-icon-JS",
+	"bugs": {
+		"url": "https://github.com/minhazmiraz/file-extension-icon-JS/issues"
+	},
+	"author": {
+		"name": "minhazmiraz"
+	},
+	"main": "./dist/index.js",
+	"module": "./dist/index.js",
+	"typings": "./dist/index.d.ts",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/minhazmiraz/file-extension-icon-JS"
+	},
+	"private": true,
+	"dependencies": {
+		"@testing-library/jest-dom": "^5.11.9",
+		"@testing-library/react": "^11.2.5",
+		"@testing-library/user-event": "^12.7.2",
+		"react": "^17.0.1",
+		"react-dom": "^17.0.1",
+		"react-scripts": "4.0.3",
+		"web-vitals": "^1.1.0"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"publish:npm": "rm -rf dist && mkdir dist &&  babel ./src/components -d dist --copy-files"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-preset-env": "^1.7.0",
+		"babel-preset-react": "^6.24.1",
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"node-fetch": "^2.6.1"
+	},
+	"babel": {
+		"presets": [
+			"react",
+			"env"
+		]
+	}
 }
