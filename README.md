@@ -4,6 +4,8 @@ Use folder name and file extension specific [Material-icon](https://github.com/P
 
 _Inspired by [vscode-icons-js](https://github.com/dderevjanik/vscode-icons-js) and [file-icons-js](https://github.com/websemantics/file-icons-js)_
 
+![sample picture](/public/sample.png)
+
 ## Installation
 
 ```
