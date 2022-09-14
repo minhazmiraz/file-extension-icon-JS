@@ -27,7 +27,7 @@ export const getMaterialFileIcon = (fileName) => {
 	if (iconName === "") iconName = "file";
 
 	let icon = Icons.materialFileIcons
-		.map((materialFileIcon) => (materialFileIcon[iconName] ? materialFileIcon[iconName] : ""))
+		.map((materialFileIcon) => (materialFileIcon[iconName] || ""))
 		.filter((item) => item);
 
 	return `data:image/svg+xml;base64,${convertToBase64(icon[0])}`;
