@@ -7,6 +7,7 @@ import { materialFolderNamesToIcons } from "../gen/materialFolderIconsName";
 import Icons from "../icons/index";
 
 export const getMaterialFileIcon = (fileName) => {
+	fileName = fileName.toLowerCase();
 	let splitName = fileName.split(".");
 	let iconName = "";
 
