@@ -4,6 +4,7 @@ import { vsiFolderNamesToIcons } from "../gen/vsiFolderIconsName";
 import Icons from "../icons/index";
 
 export const getVSIFileIcon = (fileName) => {
+	fileName = fileName.toLowerCase();
 	let splitName = fileName.split(".");
 	let iconName = "";
 
