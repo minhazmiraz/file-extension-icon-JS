@@ -1092,4 +1092,5 @@ export const materialFileNamesToIcons = {
   "snowpack.config.js": "snowpack",
   "snowpack.config.ts": "snowpack",
   "snowpack.config.json": "snowpack",
+  php: "php",
 };
