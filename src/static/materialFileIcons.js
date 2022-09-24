@@ -1,7 +1,7 @@
 export const materialFileIcons = {
   defaultIcon: { name: "file" },
   icons: [
-    { name: "html", fileExtensions: ["htm", "xhtml", "html_vm", "asp"] },
+    { name: "html", fileExtensions: ["htm", "html", "xhtml", "html_vm", "asp"] },
     {
       name: "pug",
       fileExtensions: ["jade", "pug"],
@@ -109,7 +109,7 @@ export const materialFileIcons = {
         "jfif",
       ],
     },
-    { name: "javascript", fileExtensions: ["js", "esx", "mjs"] },
+    { name: "javascript", fileExtensions: ["js", "esx", "mjs", "jsm"] },
     { name: "react", fileExtensions: ["jsx"] },
     { name: "react_ts", fileExtensions: ["tsx"] },
     {
@@ -215,6 +215,7 @@ export const materialFileIcons = {
         "vcxitems.filters",
         "vcxproj",
         "vcxproj.filters",
+        "nsjproj",
       ],
     },
     {
@@ -265,6 +266,7 @@ export const materialFileIcons = {
       name: "hpp",
       fileExtensions: ["hh", "hpp", "hxx", "h++", "hp", "tcc", "inl"],
     },
+    { name: "php", fileExtensions: ["php"] },
     { name: "go", fileExtensions: ["go"] },
     { name: "go-mod", fileNames: ["go.mod", "go.sum"] },
     { name: "python", fileExtensions: ["py"] },
