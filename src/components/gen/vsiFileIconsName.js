@@ -125,6 +125,7 @@ export const vsiFileExtensionsToIcons = {
   jenkins: "jenkins",
   jinja: "jinja",
   js: "js_official",
+  jsm: "js_official",
   json: "json2",
   "JSON-tmLanguage": "json2",
   jsonc: "json2",

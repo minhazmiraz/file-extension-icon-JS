@@ -12,6 +12,10 @@ function App() {
 			<img src={getMaterialFileIcon("file.java")} alt="file" width="24" />
 			<img src={getMaterialFileIcon("file.gradle")} alt="file" width="24" />
 			<img src={getMaterialFileIcon("file.ts")} alt="file" width="24" />
+			<img src={getMaterialFileIcon("file.php")} alt="file" width="24" />
+			<img src={getMaterialFileIcon("file.html")} alt="file" width="24" />
+			<img src={getMaterialFileIcon("file.jsm")} alt="file" width="24" />
+			<img src={getMaterialFileIcon("file.njsproj")} alt="file" width="24" />
 
 			<h4 style={{ paddingLeft: "5px" }}>Material Folder Icons sample</h4>
 			<img src={getMaterialFolderIcon("android")} alt="file" width="24" />
@@ -32,7 +36,7 @@ function App() {
 			<img src={getMaterialFolderIcon("src")} alt="file" width="24" />
 			<img src={getMaterialFolderIcon("src", 1)} alt="file" width="24" />
 
-			<h4 style={{ paddingLeft: "5px" }}>VSI Folder Icons sample</h4>
+			<h4 style={{ paddingLeft: "5px" }}>VSI File Icons sample</h4>
 			<img src={getVSIFileIcon("file.js")} alt="file" width="24" />
 			<img src={getVSIFileIcon("file.c")} alt="file" width="24" />
 			<img src={getVSIFileIcon("file.cpp")} alt="file" width="24" />
@@ -40,6 +44,10 @@ function App() {
 			<img src={getVSIFileIcon("file.java")} alt="file" width="24" />
 			<img src={getVSIFileIcon("file.gradle")} alt="file" width="24" />
 			<img src={getVSIFileIcon("file.ts")} alt="file" width="24" />
+			<img src={getVSIFileIcon("file.php")} alt="file" width="24" />
+			<img src={getVSIFileIcon("file.html")} alt="file" width="24" />
+			<img src={getVSIFileIcon("file.jsm")} alt="file" width="24" />
+			<img src={getVSIFileIcon("file.njsproj")} alt="file" width="24" />
 
 			<h4 style={{ paddingLeft: "5px" }}>VSI Folder Icons sample</h4>
 			<img src={getVSIFolderIcon("android")} alt="file" width="24" />

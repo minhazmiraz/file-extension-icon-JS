@@ -1,4 +1,5 @@
 export const materialFileExtensionsToIcons = {
+  html: "html",
   htm: "html",
   xhtml: "html",
   html_vm: "html",
@@ -89,6 +90,7 @@ export const materialFileExtensionsToIcons = {
   xcf: "image",
   jfif: "image",
   js: "javascript",
+  jsm: "javascript",
   esx: "javascript",
   mjs: "javascript",
   jsx: "react",
@@ -147,6 +149,7 @@ export const materialFileExtensionsToIcons = {
   vcxitems: "visualstudio",
   "vcxitems.filters": "visualstudio",
   vcxproj: "visualstudio",
+  njsproj: "visualstudio",
   "vcxproj.filters": "visualstudio",
   pdb: "database",
   sql: "database",
