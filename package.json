@@ -9,6 +9,9 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@types/node": "^20.14.9",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
     "typescript": "^5.2.2",
     "vite": "^5.3.1"
   }
